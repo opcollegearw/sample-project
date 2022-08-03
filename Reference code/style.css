@@ -1,0 +1,34 @@
+/* === Universal styles — styles that apply to every section === */
+
+/* Giving each section a little bit of spacing so the page isn't crowded */
+.container {
+    padding: 2em 0;
+}
+
+/* Because I'll want multiple items to be bold, I've created a separate class for them */
+.bold {
+    font-weight: 700;
+}
+
+/* === Specific styles — styles that only apply to some sections === */
+
+/* Top section */
+.header {
+    background-image: url("assets/header-image.jpg");
+    background-size: cover;
+    height: 500px;
+    /* If you've gotten to Intermediate CSS, you can alternately use Flexbox to center your title using the code below! */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #fff;
+    /* Try adding a background so your text stands out — I'm also changing my opacity for a more interesting effect */
+    background-color: #333;
+    opacity: 0.9;
+    /* I'm also adding some padding so my text doesn't look so squished! */
+    padding: 1em;
+}
